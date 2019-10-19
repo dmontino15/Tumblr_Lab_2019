@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		CEC208B9235B92C700F53FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC208B8235B92C700F53FD1 /* AppDelegate.swift */; };
 		CEC208BB235B92C700F53FD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC208BA235B92C700F53FD1 /* SceneDelegate.swift */; };
-		CEC208BD235B92C700F53FD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC208BC235B92C700F53FD1 /* ViewController.swift */; };
 		CEC208C0235B92C700F53FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC208BE235B92C700F53FD1 /* Main.storyboard */; };
 		CEC208C2235B92C800F53FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC208C1235B92C800F53FD1 /* Assets.xcassets */; };
 		CEC208C5235B92C800F53FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC208C3235B92C800F53FD1 /* LaunchScreen.storyboard */; };
 		CEC208D0235B92C800F53FD1 /* Tumblr_Lab_2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC208CF235B92C800F53FD1 /* Tumblr_Lab_2019Tests.swift */; };
 		CEC208DB235B92C800F53FD1 /* Tumblr_Lab_2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC208DA235B92C800F53FD1 /* Tumblr_Lab_2019UITests.swift */; };
+		CEC208EA235B944200F53FD1 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC208E9235B944200F53FD1 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		CEC208B5235B92C700F53FD1 /* Tumblr_Lab_2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblr_Lab_2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC208B8235B92C700F53FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC208BA235B92C700F53FD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEC208BC235B92C700F53FD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEC208BF235B92C700F53FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEC208C1235B92C800F53FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC208C4235B92C800F53FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		CEC208D6235B92C800F53FD1 /* Tumblr_Lab_2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tumblr_Lab_2019UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC208DA235B92C800F53FD1 /* Tumblr_Lab_2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumblr_Lab_2019UITests.swift; sourceTree = "<group>"; };
 		CEC208DC235B92C800F53FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC208E9235B944200F53FD1 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +99,9 @@
 		CEC208B7235B92C700F53FD1 /* Tumblr_Lab_2019 */ = {
 			isa = PBXGroup;
 			children = (
-				CEC208B8235B92C700F53FD1 /* AppDelegate.swift */,
-				CEC208BA235B92C700F53FD1 /* SceneDelegate.swift */,
-				CEC208BC235B92C700F53FD1 /* ViewController.swift */,
+				CEC208E9235B944200F53FD1 /* PhotosViewController.swift */,
 				CEC208BE235B92C700F53FD1 /* Main.storyboard */,
-				CEC208C1235B92C800F53FD1 /* Assets.xcassets */,
-				CEC208C3235B92C800F53FD1 /* LaunchScreen.storyboard */,
+				CEC208E8235B92DE00F53FD1 /* Supporting Files */,
 				CEC208C6235B92C800F53FD1 /* Info.plist */,
 			);
 			path = Tumblr_Lab_2019;
@@ -126,6 +123,17 @@
 				CEC208DC235B92C800F53FD1 /* Info.plist */,
 			);
 			path = Tumblr_Lab_2019UITests;
+			sourceTree = "<group>";
+		};
+		CEC208E8235B92DE00F53FD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC208C3235B92C800F53FD1 /* LaunchScreen.storyboard */,
+				CEC208B8235B92C700F53FD1 /* AppDelegate.swift */,
+				CEC208BA235B92C700F53FD1 /* SceneDelegate.swift */,
+				CEC208C1235B92C800F53FD1 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC208BD235B92C700F53FD1 /* ViewController.swift in Sources */,
+				CEC208EA235B944200F53FD1 /* PhotosViewController.swift in Sources */,
 				CEC208B9235B92C700F53FD1 /* AppDelegate.swift in Sources */,
 				CEC208BB235B92C700F53FD1 /* SceneDelegate.swift in Sources */,
 			);
